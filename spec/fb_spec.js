@@ -10,11 +10,11 @@ describe("FizzBuzz", function() {
   });
 
   it("returns 'buzz' when 5 is entered", function() {
-    expect(subject.count(5)).toEqual("fizz");
+    expect(subject.count(5)).toEqual("buzz");
   });
 
   it("returns 'fizzbuzz' when 15 is entered", function() {
-    expect(subject.count(15)).toEqual("fizz");
+    expect(subject.count(15)).toEqual("fizzbuzz");
   });
 
   it("returns the number when 7 is entered", function() {
