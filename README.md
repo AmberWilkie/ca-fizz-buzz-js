@@ -1,4 +1,4 @@
-## JS Test Boilerplate 0.1 (WIP)
+## Fizz-Buzz Javscript Practice
 [![Build Status](https://travis-ci.org/AmberWilkie/ca-fizz-buzz-js/)
 [![Coverage Status](https://coveralls.io/github/AmberWilkie/ca-fizz-buzz-js)
 
