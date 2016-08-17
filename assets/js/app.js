@@ -1,6 +1,6 @@
 
 var onReadyEvents = function(){
-  $('#click_me').keypress(function(e){
+  $('#number').keypress(function(e){
     if(e.which == 13){//Enter key pressed
         $('#click_me').click();
     }});

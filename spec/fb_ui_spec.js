@@ -1,7 +1,7 @@
 describe('Fizz Buzz sample', function() {
   beforeEach(function() {
     jasmine.getFixtures().fixturesPath = 'base/spec/fixtures';
-    loadFixtures('fizzbuzz.html');
+    loadFixtures('fizzbuzz_partial.html');
     $.holdReady(false);
   });
 
