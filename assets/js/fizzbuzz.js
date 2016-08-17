@@ -10,5 +10,4 @@ FizzBuzz.prototype.count = function(num) {
   }else {
     return num;
   }
-// Need to make a change.
 };

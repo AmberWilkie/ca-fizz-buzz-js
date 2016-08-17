@@ -1,7 +1,14 @@
 
 var onReadyEvents = function(){
-  $('#click_me').click(function() {
-    var text = $('#text').val();
-    $('#display_message').html(text);
+  $('#click_me').keypress(function(e){
+    if(e.which == 13){//Enter key pressed
+        $('#click_me').click();
+    }});
+
+  $('#click_me').click(function () {
+    num = $('#number').val();
+    calc = new FizzBuzz();
+    msg = calc.count(num);
+    $('#display_message').html(msg);
   });
-}
+};
